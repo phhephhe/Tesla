@@ -1,0 +1,66 @@
+body{
+    color: #171a20;
+    font-family: 'M PLUS 1', sans-serif;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.teslaLogo{
+    width: 120px;
+    height: 30px;
+    color: inherit;
+}
+header nav a {
+    color: inherit;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 500; 
+    transition: all 0.5s ease;
+}
+header nav a:hover{
+    background-color: #eee;
+}
+/* right menu */
+.close{
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight:100;
+    cursor:pointer;
+}
+.menu{
+    transition: right .4s ease;
+    z-index: 4;
+    background-color: bisque;
+    position: fixed;
+    right: -310px;
+    width: 310px;
+    height: 100vh;
+    background-color:#fff;
+    padding:80px 40px;
+}
+.active{
+    right: 0;
+}
+.menu a{
+    display: block;
+    padding: 12px 0px;
+    color: inherit;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    font-size: 14px;
+}
+.menu a:hover{
+    background-color: #eee;
+}
