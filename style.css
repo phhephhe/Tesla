@@ -17,6 +17,7 @@ header {
     color: inherit;
 }
 header nav a {
+    border-radius: 7px;
     color: inherit;
     padding: 5px 15px;
     font-size: 14px;
@@ -38,6 +39,11 @@ header nav a:hover{
     font-family: sans-serif;
     font-weight:100;
     cursor:pointer;
+    transition: all 0.2s ease;
+}
+.close:hover{
+    color: red;
+    scale: 1.2;
 }
 .menu{
     transition: right .4s ease;
@@ -54,8 +60,9 @@ header nav a:hover{
     right: 0;
 }
 .menu a{
+    border-radius: 7px;
     display: block;
-    padding: 12px 0px;
+    padding: 12px 5px;
     color: inherit;
     transition: all 0.5s ease;
     font-weight: 500;
