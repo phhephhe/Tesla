@@ -133,5 +133,13 @@ footer{
 footer .creator {
     padding-bottom: 30px;
 }
-
-
+/* blur and backdrop */
+.blur {
+    display: none;
+    position: fixed;
+    z-index:3;
+    inset: 0;
+    background-color: rgba(0,0,0,.35);
+    transition: background-color .4s ease;
+    backdrop-filter: blur(5px);
+}
