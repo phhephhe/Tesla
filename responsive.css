@@ -3,4 +3,17 @@
     .desktop {
         display: none;
     }
+    #menuBtn{
+        background-color: rgba(228, 228, 228, 0.418);
+    }
+  }
+
+
+  @media only screen and (max-width: 630px) {
+    .buttons a{
+        width: 80%;
+    }
+    section .buttons {
+        gap: 14px;
+    }
   }
